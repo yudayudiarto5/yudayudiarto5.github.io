@@ -1,0 +1,363 @@
+* {
+    box-sizing: border-box;
+}
+
+/* CSS Reset */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: "Roboto";
+    background-color: #f7f7f7;
+}
+
+
+
+.heading {
+    padding-bottom: 64px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 1168px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/*  Start Nav */
+
+nav {
+    position: fixed;
+    background: #1d415e;
+    height: 80px;
+    width: 100%;
+  }
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    font-weight: bold;
+  }
+nav ul{
+    float: right;
+  }
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+#check{
+    display: none;
+}
+
+/* End Nav */
+
+
+/* Start Top */
+.top-wrapper {
+    background-image: url("/img/bg-hero.png");
+    background-size: cover;
+    color: white;
+    padding: 280px 0 100px 0;
+    height: 768px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.top-wrapper h1{
+    font-size: 64px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 20px;
+}
+/* End Top */
+
+/* Start Services */
+.services-wrapper {
+    text-align: center;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.service {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.services {
+    padding-bottom: 128px;
+}
+
+.service_icon {
+    background-image: url(/img/bg-services3.png);
+    background-size: cover;
+    height: 320px;
+    box-sizing: border-box;
+    margin-right: 5%;
+}
+
+.service_icon img {
+    padding-top: 50px;
+    padding-bottom: 52px;
+}
+
+.service_icon h3{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0,5px;
+    font-weight: normal;
+}
+
+.service_details {
+    padding: 0 24px;
+    margin-top: 16px;;
+    color: #EAE8E8;
+    font-size: 16px;
+}
+
+.clear {
+    clear: left;
+  }
+
+/* End Services */
+
+  
+/*  Start Section Work */
+
+.works-wrapper {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.column-left {
+    float: left;
+    height: 554px;
+    width: 50%;
+}
+
+.column-left img {
+    height: 100%;
+    width: 100%;
+}
+
+.column-right {
+    float: left;
+    height: 277px;
+    width: 50%;
+}
+
+.column3 img {
+    height: 100%;
+    width: 100%;
+}
+
+.column4 img {
+    height: 100%;
+    width: 100%;
+}
+
+.column5 img {
+    height: 100%;
+    width: 100%;
+}
+
+.column6 img {
+    height: 100%;
+    width: 100%;
+}
+
+.column3 {
+    float: left;
+    height: 277px;
+    width: 50%;
+    
+}
+
+.column4 {
+    float: right;
+    height: 277px;
+    width: 50%;
+}
+
+.column5 {
+    float: right;
+    height: 277px;
+    width: 50%;
+}
+
+.column6 {
+    float: right;
+    height: 277px;
+    width: 50%;
+}
+  
+/* End Section Work */
+
+
+
+/* .team-wrapper .heading {
+    padding-top: 42px;
+} */
+
+
+
+/* Start Our Team */
+
+.team-wrapper {
+    text-align: center;
+    padding-bottom: 220px;
+}
+
+.teams {  
+    height: 246px;
+}
+
+.team {
+    box-sizing: border-box;
+    float: left;
+    height: 200px;
+    width: 20%;
+    padding: 20px;
+    
+}
+
+/* End Our Team */
+
+
+
+/* Start Hire Me */
+
+.hireme-wrapper {
+    margin-top: 200px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.container-hireme {
+    max-width: 770px;
+    padding: 20px 20px;
+    margin: 0 auto;
+}
+  
+.contact-submit{
+    background-color: #2D9CDB;
+    color : white;
+    height: 42px;
+} 
+  
+input{
+    width: 100%;
+    margin: 10px 0 30px 0;
+    padding: 4px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+textarea{
+    width: 100%;
+    margin: 10px 0 30px 0;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+.hiremes p {
+    text-align: left;
+}
+
+.hireme1 {
+    width: 50%;
+    float: left;
+}
+.hireme2 {
+    margin-left: 2%;
+    width: 48%;
+    float: left;
+}
+
+/* Start Footer */
+
+footer {
+    height: 180px;
+    background-image: url(/img/bg-footer.png);
+    padding-top: 30px;
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+}
+
+footer img {
+    padding-top: 40px;
+}
+
+footer p{
+    margin-top: 8px;
+    color: white;
+}
+
+
+
+/*  Animation */
+
+
+.heading{
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: white; }
+    50% { color: orange; }
+    100% { color: white; }
+}
+@-moz-keyframes color-change {
+    0% { color: white; }
+    50% { color: orange; }
+    100% { color: white; }
+}
+@-ms-keyframes color-change {
+    0% { color: white; }
+    50% { color: orange; }
+    100% { color: white; }
+}
+@-o-keyframes color-change {
+    0% { color: white; }
+    50% { color: orange; }
+    100% { color: white; }
+}
+@keyframes color-change {
+    0% { color: white; }
+    50% { color: orange; }
+    100% { color: white; }
+}

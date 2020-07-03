@@ -1,0 +1,231 @@
+/* CSS untuk Tablet */
+@media (max-width: 1000px) {
+  
+  .top-wrapper h1{
+    font-size: 48px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+    padding-top: 10px;
+  }
+
+  .top-wrapper {
+    background-image: url("/img/bg-hero.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 500px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+     
+  .header-right{
+    display: none;
+  }
+
+  .service{
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .service_details {
+    margin-top: 16px;;
+    color: #EAE8E8;
+  }
+
+  .column-left {
+    width: 100%;
+  }
+
+  .column-right {
+    width: 100%;
+    height: 100%;
+  }
+
+  .team-wrapper {
+    height: 50%;
+    /* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+  /*  Start CSS Responsive Top-Wrapper */
+  .top-wrapper h1{
+      font-size: 24px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      letter-spacing: 5px;
+      margin: 20px auto;
+  }
+
+  .top-wrapper {
+      background-image: url("/img/bg-hero.png");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      height: 500px;
+      text-align: center;
+      margin-bottom: 100px;
+  }
+  
+  /*  End CSS Responsive Top-Wrapper */
+  
+
+  /* Start Responsive Service */
+  .service{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    text-align: center;
+  }
+
+  .service_details {
+      margin-top: 16px;;
+      color: #EAE8E8;
+      font-size: 14px;
+  }
+
+  /* End Service */
+
+  .column-left {
+      width: 100%;
+      padding-right: 16px;
+      padding-left: 16px;
+      padding-bottom: 16px;
+  }
+
+
+  .column3, .column4, .column5, .column6 {
+      padding: 0 16px 16px 16px;
+      width: 100%;
+      height: 100%;
+  }
+
+  .team-wrapper {
+      height: 50%;
+      padding-bottom: 220px;
+  }
+
+  .team {
+      width: 50%;
+  }
+  
+  .teams {  
+      height: 246px;
+  }
+
+
+
+
+
+}
+
+  }
+
+  .team {
+    width: 50%;
+  }
+  
+  .checkbtn{
+    display: block;
+  }
+  ul{
+   position: fixed;
+   width: 100%;
+   height: 100vh;
+   background: #2c3e50;
+   top: 80px;
+   left: -100%;
+   text-align: center;
+   transition: all .5s;
+  }
+      nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+      }
+      nav ul li a{
+        font-size: 20px;
+      }
+      a:hover,a.active{
+        background: none;
+        color: #0082e6;
+      }
+      #check:checked ~ ul{
+        left: 0;
+      }
+
+
+      label.logo{
+        font-size: 30px;
+        padding-left: 30px;
+      }
+      nav ul li a{
+        font-size: 16px;
+      }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+  /*  Start CSS Responsive Top-Wrapper */
+  .top-wrapper h1{
+      font-size: 24px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      letter-spacing: 5px;
+      margin: 20px auto;
+  }
+
+  .top-wrapper {
+      background-image: url("/img/bg-hero.png");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      height: 500px;
+      text-align: center;
+      margin-bottom: 100px;
+  }
+  
+  /*  End CSS Responsive Top-Wrapper */
+  
+
+  /* Start Responsive Service */
+  .service{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    text-align: center;
+  }
+
+  .service_details {
+      margin-top: 16px;;
+      color: #EAE8E8;
+      font-size: 14px;
+  }
+
+  /* End Service */
+
+  .column-left {
+      width: 100%;
+      padding-right: 16px;
+      padding-left: 16px;
+      padding-bottom: 16px;
+  }
+
+
+  .column3, .column4, .column5, .column6 {
+      padding: 0 16px 16px 16px;
+      width: 100%;
+      height: 100%;
+  }
+
+  .team-wrapper {
+      height: 50%;
+      padding-bottom: 220px;
+  }
+
+  .team {
+      width: 50%;
+  }
+  
+  .teams {  
+      height: 246px;
+  }
+
+}
